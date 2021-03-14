@@ -1,5 +1,5 @@
 # AirQuality App
-A simple and interactive application that allows users to select an Indian city and have their local air quality displayed in cigarettes and particulate matter.The application is hosted online and can be viewed here: https://airquality.vercel.app
+A simple and interactive application that allows users to select an Indian city and have their local air quality displayed in cigarettes and particulate matter. The application is hosted online and can be viewed here: https://airquality.vercel.app
 
 ## Getting Started
 These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
