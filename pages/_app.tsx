@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         defaultLocale={lang}
         messages={intlMessages[lang]}
       >
-        <Flex justifyContent="flex-end" pt={10}>
+        <Flex justifyContent="flex-end" pt={5}>
           <Img
             mr={3}
             w={10}
@@ -30,6 +30,7 @@ function MyApp({ Component, pageProps }) {
             cursor="pointer"
             onClick={() => setLang("en")}
             src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_the_United_Kingdom.png"
+            alt="English flag"
           />
           <Img
             w={10}
@@ -38,6 +39,7 @@ function MyApp({ Component, pageProps }) {
             cursor="pointer"
             onClick={() => setLang("hi")}
             src="https://cdn.pixabay.com/photo/2018/12/10/10/02/flag-3866559__480.jpg"
+            alt="Hindi flag"
           />
         </Flex>
         <Component {...pageProps} />
